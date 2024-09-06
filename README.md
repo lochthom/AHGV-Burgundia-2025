@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AH GV Burgundia 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Weißer Hintergrund */
+            color: #333333; /* Dunkelgraue Schriftfarbe */
+            scroll-behavior: smooth; /* Sanftes Scrollen */
+        }
+
+        header {
+            background-color: #ff6600; /* Orange */
+            color: #ffffff; /* Weißer Text */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #008000; /* Grün */
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #ffffff; /* Weißer Text */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff6600; /* Orange beim Hover */
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #008000; /* Grün */
+            color: #ffffff; /* Weißer Text */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .event-time {
+            font-weight: bold;
+        }
+
+        .event-location {
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .event {
+            margin-bottom: 15px;
+        }
+
+        .ok-list {
+            list-style-type: disc; /* Punkte als Aufzählungszeichen */
+            margin-left: 20px;
+        }
+
+        .back-to-top {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-to-top img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AKV Burgundia <br>Altherren Generalversammlung <br>14./15. Juni 2025 Saas-Fee</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gv">GV</a></li>
+            <li><a href="#programm">Programm</a></li>
+            <li><a href="#anmeldung">Anmeldung</a></li>
+            <li><a href="#ok">OK</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Herzlich willkommen im Wallis</h2>
+        <img src="https://via.placeholder.com/800x400?text=Startseite" alt="Startseite Bild">
+        <p>Willkommen auf unserer Startseite! Hier finden Sie alle wichtigen Informationen.</p>
+        <a href="#top" class="back-to-top"><img src="https://via.placeholder.com/100x50?text=Nach+oben" alt="Nach oben"></a>
+    </section>
+
+    <section id="gv">
+        <h2>GV</h2>
+        <img src="https://via.placeholder.com/800x400?text=Generalversammlung" alt="Generalversammlung Bild">
+        <p>Informationen zur Generalversammlung (GV) finden Sie hier.</p>
+        <a href="#top" class="back-to-top"><img src="https://via.placeholder.com/100x50?text=Nach+oben" alt="Nach oben"></a>
+    </section>
+
+    <section id="programm">
+        <h2>Programm</h2>
+        <p>Hier finden Sie unser Programm und alle Veranstaltungen im Überblick.</p>
+        <div class="event">
+            <p class="event-time">Freitag, 2. Juni 2023</p>
+            <p class="event-time">20:00 c.t.</p>
+            <p>Schlusskneipe</p>
+            <p class="event-location">Restaurant Rathaus im Velschensaal, Gerberngasse 1, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">Samstag, 3. Juni 2023</p>
+            <p class="event-time">12:00 c.t.</p>
+            <p>Apéro riche</p>
+            <p class="event-location">Restaurant Waisenhaus, Bälliz 61, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">14:00 s.t.</p>
+            <p>Generalversammlung</p>
+            <p class="event-location">Theater „Alte Oele“, Freienhofgasse 10a, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">14:00 s.t.</p>
+            <p>Damenanlass</p>
+            <p class="event-location">Wygarte, Ortbühlweg 53, 3600 Steffisburg</p>
+        </div>
+        <div class="event">
+            <p class="event-time">16:00</p>
+            <p>Bezug Unterkunft</p>
+        </div>
+        <div class="event">
+            <p class="event-time">17:00 c.t.</p>
+            <p>Apéro</p>
+            <p class="event-location">Rest. Vera Calma, Hofstettenstrasse 2, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">19:00 c.t.</p>
+            <p>Gala Dinner</p>
+            <p class="event-location">Hotel Beau Rivage, Hofstettenstrasse 6, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">23:00 c.t.</p>
+            <p>Eröffnung Bierstaat</p>
+            <p class="event-location">Hotel Beau Rivage</p>
+        </div>
+        <div class="event">
+            <p class="event-time">01:00</p>
+            <p>Und wenn sich der Schwarm…</p>
+        </div>
+        <div class="event">
+            <p class="event-time">Sonntag, 4. Juni 2023</p>
+            <p class="event-time">9:30 s.t.</p>
+            <p>Messe</p>
+            <p class="event-location">Kirche St. Marien, Kapellenweg, 3600 Thun</p>
+        </div>
+        <div class="event">
+            <p class="event-time">11:00 c.t.</p>
+            <p>Brunch</p>
+            <p class="event-location">Parkside eat & bar Lounge, Grabenstrasse 8, 3600 Thun</p>
+        </div>
+        <a href="#top" class="back-to-top"><img src="https://via.placeholder.com/100x50?text=Nach+oben" alt="Nach oben"></a>
+    </section>
+
+    <section id="anmeldung">
+        <h2>Anmeldung</h2>
+        <img src="https://via.placeholder.com/800x400?text=Anmeldung" alt="Anmeldung Bild">
+        <p>Das OK hat unter dem Stichwort "Burgunder Junifahrt 2025" im Hotel Walliserhof vorreserviert!
+        Hier können Sie sich für unsere Veranstaltungen anmelden. LINK ZUM HOTELRESERVATIONSSYSTEM</p>
+        <p> Anmeldeliste anzeigen</p>
+        <a href="#top" class="back-to-top"><img src="https://via.placeholder.com/100x50?text=Nach+oben" alt="Nach oben"></a>
+    </section>
+
+    <section id="ok">
+        <h2>OK</h2>
+        <img src="https://via.placeholder.com/800x400?text=Organisationskomitee" alt="Organisationskomitee Bild">
+        <p>Das Organisationskomitee (OK) stellt sich vor.</p>
+        <ul class="ok-list">
+            <li>Pression</li>
+            <li>Fédéral</li>
+            <li>Süber</li>
+            <li>Kurfa</li>
+            <li>Sasso</li>
+        </ul>
+        <a href="#top" class="back-to-top"><img src="https://via.placeholder.com/100x50?text=Nach+oben" alt="Nach oben"></a>
+    </section>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2025 Burgundia Region Wallis. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
