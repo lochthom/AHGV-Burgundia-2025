@@ -101,19 +101,20 @@
         }
 
 
-    table {
+     table {
         width: 100%;
         border-collapse: collapse;
     }
 
     thead {
-        background-color: #f2f2f2;
+        background-color: orange; /* Orangefarbener Tabellenkopf */
     }
 
     th {
         font-weight: bold;
         text-align: left;
         padding: 8px;
+        color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
     }
 
     td {
@@ -121,14 +122,19 @@
         text-align: left;
     }
 
-    tbody tr:nth-child(even) {
+    tbody tr.day-header {
+        background-color: #4CAF50; /* Grüner Hintergrund für die Tagesüberschriften */
+        color: white; /* Weiße Schriftfarbe für bessere Lesbarkeit */
+        font-weight: bold;
+    }
+
+    tbody tr:nth-child(even):not(.day-header) {
         background-color: #f9f9f9;
     }
 
-    tbody tr:nth-child(odd) {
+    tbody tr:nth-child(odd):not(.day-header) {
         background-color: #ffffff;
     }
-
         
     </style>
 </head>
